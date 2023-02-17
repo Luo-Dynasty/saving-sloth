@@ -12,8 +12,8 @@ type SampleInterface interface {
 	PrintLogTesting()
 }
 
-func NewModule() *SampleModule {
-	return &SampleModule {
+func NewModule() SampleModule {
+	return SampleModule {
 
 	}
 }
